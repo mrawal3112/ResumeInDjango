@@ -1,0 +1,257 @@
+
+        body {
+            background-color: #f8f8f8;
+            font-family:
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                "Helvetica Neue",
+                Arial,
+                "Noto Sans",
+                sans-serif,
+                "Apple Color Emoji",
+                "Segoe UI Emoji",
+                "Segoe UI Symbol",
+                "Noto Color Emoji";
+        }
+
+        .myimages {
+            box-shadow: 1px 1px 4px 1px #9e8080;
+            width: 40%;
+            height: 450px;
+            margin-top: 2.5%;
+            margin-left: 5%;
+            border-radius: 25px;
+        }
+
+        .myinfo {
+            box-shadow: 1px 1px 4px 1px #9e8080;
+            width: 40%;
+            height: 450px;
+            margin-top: 2.5%;
+            margin-left: 5%;
+            border-radius: 25px;
+        }
+
+        .coverpic {
+            overflow: hidden;
+            width: 100%;
+            height: 275px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+
+        .profilepic {
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid white;
+            width: 12.5%;
+            height: 25%;
+            left: 17.5%;
+            top: 35%;
+            -webkit-filter: drop-shadow(1px 3px 5px black);
+            filter: drop-shadow(1px 3px 5px black);
+        }
+        
+        h4,h1 {
+            margin-left: 10px
+        }
+
+        h6 {
+            margin-left: 10px;
+            margin-top: 11.5%;
+            font-size: 1rem;
+            color: gray;
+        }
+
+        span {
+            color: chartreuse;
+            font-weight: bold;
+        }
+
+        .project {
+            display: flex;
+        }
+
+        ul {
+            margin-left: -50px;
+            font-size: 20px;
+        }
+
+        .edu {
+            list-style-type: none;
+            font-size: 13.5px;
+            color: chartreuse;
+            margin-bottom: 2px;
+        }
+
+        .educ {
+            list-style-type: none;
+            font-size: 13.5px;
+            color: black;
+            margin-bottom: 12px;
+            margin-right: 10px;
+        }
+.education-certificate-conatiner
+{
+    box-shadow: 1px 1px 4px 1px #9e8080;
+    border-radius: 25px;
+    margin-top: 10px;
+    width:85%;
+    height:650px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.education-certificate-items
+{
+    width: 60%;
+    height: 270px;
+    margin-left: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+img.edu-exp-image
+{
+    width:90px; 
+    height:90px; 
+}
+.education-div
+{
+    background: #f3f3f3;
+    width: 250px;
+    height: 200px;
+    margin-top:20px;
+    transition: 1.5s;;
+    margin-left: 50px;
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+    border-radius: 20px;
+}
+.certification-div
+{
+    background: #f3f3f3;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+    transition: 1.5s;
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+    border-radius: 20px;
+}
+.education-div img, .certification-div img
+{
+    width:80px; 
+    height:80px;
+    margin-left:35%;
+    margin-top: 20px;
+}
+.education-div:hover
+{
+    transform: scale(1.1);
+    background-color:white;
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+}
+.certification-div:hover
+{
+    transform: scale(1.1);
+    background-color: white;  
+    box-shadow: 2px 1px 4px 1px #b3b3b3; 
+}
+.education-data-container
+{
+    width: 90%;
+    margin-left: 50px;
+    height:450px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.school-data,.college-data,.pg-data
+{
+    background: #f3f3f3;
+    margin-left: 30px;
+    width: 30%;
+    margin-top: 20px;
+    height: 425px;
+    transition: 1.5s;;
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+    border-radius: 20px;
+}
+.school-data:hover, .college-data:hover, .pg-data:hover,.contacts-link div:hover
+{
+    transform: scale(1.05);
+    background-color: white;
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+}
+
+.project-work
+{
+    box-shadow: 1px 1px 4px 1px #9e8080;
+    border-radius: 25px;
+    width:85%;
+    margin-left:70px;
+    margin-top:10px;
+    height:60rem;
+    margin-bottom: 10px;
+   
+}
+.project-work-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-work-items 
+{ 
+    background: #f3f3f3;
+    margin-bottom: 20px; 
+    width:45%;
+    height: 375px;
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+    border-radius: 20px;
+    transition: 1.5s;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+#surveyproject:hover
+{
+    background-color: orangered;
+    transform: rotateY(180deg);
+}
+.project-work-items > img
+{
+    margin-bottom: 20px; 
+    width:100%;
+    height: 375px;
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+    border-radius: 20px;
+    display: none;
+    transform: rotateY(180deg);
+}
+
+li
+{
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: gray;
+    font-weight: bold;
+}
+
+.language-icon
+{
+    display: flex; 
+    flex-direction: row;
+}
+.language-icon img
+{
+    width:80px; 
+    height:80px;
+    margin: 10px;
+}
+
